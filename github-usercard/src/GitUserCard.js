@@ -12,7 +12,6 @@ const GitUser = props => {
             <p>{props.gitinfo.location}</p>
             <p>{props.gitinfo.bio}</p>
             <p>Followers: {props.gitinfo.followers}</p>
-
         </div>
     )
 }
